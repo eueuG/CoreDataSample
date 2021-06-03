@@ -41,7 +41,7 @@ class ViewController: UIViewController {
                 
         // 保存する画像情報
         image.setValue(1, forKey: "id")
-        image.setValue("http://...", forKey: "imageURL")
+        image.setValue("https://www.google.com/url?sa=i&url=https%3A%2F%2Ftoretama.jp%2Fmouseover-zoomup-image.html&psig=AOvVaw3N9uvz5YvfRQyCd1v2bw-X&ust=1622792633911000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDJ6OX7-vACFQAAAAAdAAAAABAD", forKey: "imageURL")
         image.setValue("sea", forKey: "tag")
         image.setValue(5, forKey: "likes")
                 
