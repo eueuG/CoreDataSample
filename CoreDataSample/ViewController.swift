@@ -6,12 +6,22 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
+    //永続コンテナへの参照を保持する変数
+    var container: NSPersistentContainer!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //永続コンテナのnilチェック
+        guard container != nil else {
+            fatalError("This view needs a persistent container.")
+        }
     }
 
 
